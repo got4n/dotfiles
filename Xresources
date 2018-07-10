@@ -1,0 +1,60 @@
+! Xft settings
+Xft.antialias: 1
+Xft.autohint: 0
+Xft.hinting: 1
+Xft.lcdfilter: lcddefault
+Xft.hintstyle: hintslight
+Xft.rgba: rgb
+URxvt.boldFont:
+! Disable scrollbar
+URxvt.scrollBar: false
+
+! Set terminal padding
+URxvt.internalBorder: 60
+
+! Enables copy/paste with Ctrl-Shift-C/V
+URxvt.keysym.Shift-Control-C: perl:clipboard:copy
+URxvt.keysym.Shift-Control-V: perl:clipboard:paste
+URxvt.iso14755: false
+URxvt.iso14755_52: false
+URxvt.perl-ext-common: default,clipboard
+
+! Enable cursor underline
+URxvt*cursorUnderline: true
+!colors
+! special
+*.foreground:   #e0e3e7
+*.background:   #000000
+*.cursorColor:  #e0e3e7
+
+! black
+*.color0:       #000000
+*.color8:       #4192cb
+
+! red
+*.color1:       #0f1113
+*.color9:       #579fd6
+
+! green
+*.color2:       #212327
+*.color10:      #32a3e9
+
+! yellow
+*.color3:       #383c41
+*.color11:      #438cc2
+
+! blue
+*.color4:       #565c63
+*.color12:      #dfa0ea
+
+! magenta
+*.color5:       #7b838d
+*.color13:      #6abf47
+
+! cyan
+*.color6:       #a7b0bb
+*.color14:      #a98737
+
+! white
+*.color7:       #e0e3e7
+*.color15:      #ef527b
